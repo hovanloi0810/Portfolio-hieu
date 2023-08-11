@@ -67,9 +67,26 @@
     height: auto;
     width: auto;
   }
+
+  .services__item {
+    padding: 40px 40px;
+    transition: 0.3s;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    transition: all 0.5s;
+    text-align: center;
+    min-height: 610px;
+  }
 }
 
 @media (max-width: 767.98px) {
+  
+}
+
+@media (max-width: 948px) {
+  
 }
 
 @media (max-width: 575.98px) {

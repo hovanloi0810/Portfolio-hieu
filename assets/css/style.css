@@ -106,7 +106,7 @@ li.carousel__list-item.active {
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url(../img/Cover.jpg);
+  background-image: url(../img/cover_optimized.jpg);
 }
 
 .carousel-item:nth-child(2) {
@@ -248,7 +248,7 @@ li.carousel__list-item.active {
 }
 
 .services {
-  background: url(../img/DSC09865.jpg) center / cover no-repeat;
+  background: url(../img/dsc09865_optimized.jpg) center / cover no-repeat;
   padding: 100px 0 120px;
   background-attachment: fixed;
   position: relative;
@@ -277,7 +277,7 @@ li.carousel__list-item.active {
   backdrop-filter: blur(3px);
   transition: all 0.5s;
   text-align: center;
-  min-height: 400px;
+  min-height: 430px;
 }
 
 .services__item:hover {
