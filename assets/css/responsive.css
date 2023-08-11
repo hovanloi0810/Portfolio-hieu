@@ -1,0 +1,108 @@
+@media (max-width: 991.98px) {
+  .header__navbar {
+    padding-top: 1rem;
+  }
+
+  .navbar__link {
+    line-height: 1.4;
+  }
+  .navbar-toggler {
+    background-color: #35a22c;
+  }
+
+  .navbar__list {
+    background-color: #fff;
+    padding: unset;
+  }
+
+  .navbar__item {
+    width: 100%;
+    display: inline-block;
+    margin: unset;
+    padding: 0 10px;
+  }
+
+  .navbar__item:hover {
+    background-color: #35a22c;
+  }
+
+  header ul li::after {
+    content: "";
+    display: none;
+    height: 2px;
+    width: 0%;
+    background-color: #35a22c;
+    transition: all 0.5s;
+  }
+
+  .navbar-nav .navbar__item .navbar__item-link {
+    line-height: 1.5;
+    color: #35a22c;
+  }
+
+  .navbar__item:hover .navbar__item-link {
+    color: #fff !important;
+  }
+
+  .navbar__item-link {
+  }
+
+  .project__item {
+    font-family: "Hind", sans-serif;
+    height: unset;
+  }
+
+  .card-title {
+    font-size: 19px;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .project__content {
+  }
+
+  .award__item-img {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .my-nav__item {
+    margin-bottom: 16px;
+  }
+
+  .award__bg {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 376px) {
+  .header__title {
+    font-size: 22px;
+  }
+
+  .header__icon {
+    font-size: 8vw;
+  }
+
+  .carousel__title {
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .carousel__text {
+    font-size: 15px;
+  }
+}

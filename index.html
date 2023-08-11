@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./assets/img/g2.jpg" type="image/x-icon" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Gallery image -->
+    <link rel="stylesheet" href="./assets/libs/mk-lightbox-master/mklb/css/mklb.css">
+
+    <!-- Popup video -->
+    <link rel="stylesheet" href="./assets/libs/Youtube-Vimeo-Modal-Plugin-jQuery/css/modal-video.min.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- Begin: Header -->
+      <header class="header container-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark header__navbar">
+          <!-- Brand -->
+          <a class="navbar-brand navbar__link" href="#">
+            <i class="fa fa-dice-d20 header__icon"></i>
+            <span class="header__title">Portfolio</span>
+          </a>
+
+          <!-- Toggler/collapsibe Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto navbar navbar__list">
+              <li class="nav-item my-active navbar__item">
+                <a class="nav-link navbar__item-link" href="#">Home</a>
+              </li>
+              <li class="nav-item navbar__item">
+                <a class="nav-link navbar__item-link" href="#project">About</a>
+              </li>
+              <li class="nav-item navbar__item">
+                <a class="nav-link navbar__item-link" href="#services">Service</a>
+              </li>
+              <li class="nav-item navbar__item">
+                <a class="nav-link navbar__item-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- End: Header -->
+
+      <!-- Begin: Carousel data-ride="carousel" -->
+      <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <!-- <ul class="carousel-indicators carousel__list">
+          <li
+            data-target="#demo"
+            data-slide-to="0"
+            class="carousel__list-item active"
+          ></li>
+          <li
+            data-target="#demo"
+            data-slide-to="1"
+            class="carousel__list-item"
+          ></li>
+          <li
+            data-target="#demo"
+            data-slide-to="2"
+            class="carousel__list-item"
+          ></li>
+        </ul> -->
+
+        <!-- The slideshow -->
+        <!-- carousel-inner -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel__overlay"></div>
+            <div class="carousel-caption container">
+              <div class="img_thumb">
+                <img
+                  class="img-fluid animate__animated animate__fadeInUp"
+                  src="./assets/img/Avarta.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="carousel__title animate__animated animate__fadeInUp animate__delay-1s"
+              >
+                Ninh Phan Quang Hieu
+              </h3>
+              <p
+                class="carousel__text animate__animated animate__fadeInUp animate__delay-2s"
+              >
+                It is truly an honor to collaborate with you
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="carousel-item">
+            <div class="carousel__overlay"></div>
+
+            <div class="carousel-caption container">
+              <div class="img_thumb">
+                <img
+                  class="img-fluid animate__animated animate__fadeInUp"
+                  src="./assets/img/02-3.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="carousel__title animate__animated animate__fadeInUp animate__delay-1s"
+              >
+                Our goals. Our mission.
+              </h3>
+              <p
+                class="carousel__text animate__animated animate__fadeInUp animate__delay-2s"
+              >
+                How we help other companies to grow.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel__overlay"></div>
+            <div class="carousel-caption container">
+              <div class="img_thumb">
+                <img
+                  class="img-fluid animate__animated animate__fadeInUp"
+                  src="./assets/img/03-3.jpg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="carousel__title animate__animated animate__fadeInUp animate__delay-1s"
+              >
+                Our goals. Our mission.
+              </h3>
+              <p
+                class="carousel__text animate__animated animate__fadeInUp animate__delay-2s"
+              >
+                How we help other companies to grow.
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel__overlay"></div>
+            <div class="carousel-caption">
+              <div class="img_thumb">
+                <img class="img-fluid" src="./assets/img/01-3.jpg" alt="" />
+              </div>
+              <h3 class="carousel__title">Our goals. Our mission.</h3>
+              <p class="carousel__text">How we help other companies to grow.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <div class="img_thumb">
+                <img class="img-fluid" src="./assets/img/02-3.jpg" alt="" />
+              </div>
+              <h3>Our goals. Our mission.</h3>
+              <p>How we help other companies to grow.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <div class="img_thumb">
+                <img class="img-fluid" src="./assets/img/03-3.jpg" alt="" />
+              </div>
+              <h3>Our goals. Our mission.</h3>
+              <p>How we help other companies to grow.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div> -->
+      <!-- End: Carousel -->
+
+      <!-- Begin: Project -->
+      <section class="container py-5 project" id="project">
+        <div class="title text-center mx-auto py-5">
+          <h3 class="title__heading">I Love What I Do</h3>
+          <p class="my-3 title__text">
+            These are the products of our collaboration in terms of images, video clips, and design. I hope you like them.
+          </p>
+        </div>
+
+        <div class="project__content pt-3 pb-5">
+          <!-- Nav pills -->
+          <ul class="nav nav-pills justify-content-center my-nav">
+            <li class="nav-item my-nav__item">
+              <a
+                class="nav-link my-nav__link active"
+                data-toggle="pill"
+                href="#home"
+                >Videos</a
+              >
+            </li>
+            <li class="nav-item my-nav__item">
+              <a class="nav-link my-nav__link" data-toggle="pill" href="#illus"
+                >Album Green</a
+              >
+            </li>
+            <li class="nav-item my-nav__item">
+              <a class="nav-link my-nav__link" data-toggle="pill" href="#photo"
+                >Album Design</a
+              >
+            </li>
+
+            <li class="nav-item my-nav__item">
+              <a
+                class="nav-link my-nav__link"
+                data-toggle="pill"
+                href="#website"
+                >Album White</a
+              >
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane container active" id="home">
+              <div class="row">
+                <!-- Video item 1  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='DTYZi9RaPm0'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/10_optimized.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        SHEGAN Marketing part 1
+                      </h5>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </a>
+                </div>
+                
+                <!-- Video item 2  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='pXeaHzjv_6Y'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/20_optimized.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        SHEGAN Marketing part 2
+                      </h5>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Video item 3  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='BYVbnJ1R2q4'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/30_optimized.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        SHEGAN Marketing part 3
+                      </h5>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Video item 4  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='chIACJhPsFA'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/4_optimized.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        CUPID MV lyrics
+                      </h5>
+                      <p class="card-text">Video</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Video item 5  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='RGaVEgmsGV0'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/hinh_00102_optimized.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        /Ta dại ta tìm nơi vắng vẻ/ - Cinevlog #3
+                      </h5>
+                      <p class="card-text">Video</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Video item 6  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='UyV2kj2IHDE'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/1_optimized.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        REVIEW ADIDAS X SPEEDPORTAL.1 TF phiên bản "Al Rihla Pack" | Mẫu giày siêu HOT tại World Cup 2022
+                      </h5>
+                      <p class="card-text">Video</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Video item 7  -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a
+                    href="#"
+                    class="card project__item animate__animated animate__zoomIn js-video-button" data-video-id='8Ti7u-e0hRQ'
+                  >
+                    <img
+                      class="card-img-top project__img"
+                      src="./assets/thumbnails/2_optimized.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body project__cart">
+                      <h5 class="card-title">
+                        REVIEW NIKE MERCURIAL VAPOR 15 ACADEMY TF phiên bản siêu hot "GENERATION PACK" World Cup 2022
+                      </h5>
+                      <p class="card-text">Video</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane container fade" id="illus">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/COVER 2 (1).png"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/c2f5017f71bfb3e1eaae.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/DSC08562.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/DSC08849.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/DSC08930.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/IMG_1658855452019_1658855461920.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/IMG_20220502_112933.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/Green/IMG_20220502_115222.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">Image</p>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+
+            <div class="tab-pane container fade" id="photo">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/1.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/2.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/3.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/4.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/5.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/6.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/design/7.jpg"
+                      alt="Card image cap"
+                      data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane container fade" id="website">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/COVER 1.png"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/IMG_0526 (1).jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/IMG_0548.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/IMG_0571.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/IMG_0660.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/IMG_0662 (1).jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div
+                    class="card project__item animate__animated animate__zoomIn"
+                  >
+                    <img
+                      class="card-img-top project__img mklbItem"
+                      src="./assets/img/White/IMG_0663.jpg"
+                      alt="Card image cap"
+                    data-gallery="myGal"
+                    />
+                    <div class="card-body project__cart">
+                      <p class="card-text">
+                        Image
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End: Project -->
+
+      <!-- Begin: service -->
+      <section class="services" id="services">
+        <div class="services__overlay"></div>
+        <div class="title container text-center mx-auto text-light services__heading">
+          <h3 class="title__heading text-light">I'm Available For Hire</h3>
+          <p class="my-3 title__text text-light">
+            I aspire to immerse myself in the photography environment to become a professional film editor, thereby bringing more value to the company.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row mt-5 pt-3">
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+              <div class="services__item">
+                <i class="fa fa-paint-brush services__item-icon"></i>
+                <h3 class="services__item-heading">Design</h3>
+                <p class="services__item-text">
+                  I possess profound knowledge and expertise in the field of design, allowing me to create visually appealing and effective designs. With years of experience and a keen eye for detail, I can deliver creative and user-friendly solutions.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+              <div class="services__item">
+                <i class="fa-solid fa-video services__item-icon"></i>
+                <h3 class="services__item-heading">Videos</h3>
+                <p class="services__item-text">
+                  I have extensive knowledge and proficiency in the art of photography. Over the years, I have honed my skills in capturing stunning visuals, composing compelling shots, and conveying emotions through the lens
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+              <div class="services__item">
+                <i class="fa fa-camera services__item-icon"></i>
+                <h3 class="services__item-heading">Photography</h3>
+                <p class="services__item-text">
+                  I have extensive knowledge and proficiency in the art of photography. Over the years, I have honed my skills in capturing stunning visuals, composing compelling shots, and conveying emotions through the lens
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Begin: service -->
+
+      <!--Begin: award -->
+      <section class="award">
+        <div class="award__bg"></div>
+        <div class="container-lg award__content">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-5">
+              <div class="award__item">
+                <h2 class="award__item-heading">These are my skills</h2>
+                <p class="award__item-desc my-3">
+                  Allow me to elaborate on the extensive range of skills that I have cultivated and mastered :
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-7">
+              <div class="award__item-right">
+                <p class="award__item-text">
+                  These skills that I possess include a proficiency in technical software, expertise in designing visually appealing graphics and websites, a keen eye for photography, mastery in video production and editing, effective communication and collaboration abilities, and a dedication to continuous learning and adaptation.
+                </p>
+                <div class="row award__item-imgs">
+                  <div class="col">
+                    <img
+                      src="./assets/img/Adobe_After_Effects_CC_icon.svg.png"
+                      alt=""
+                      class="img-fluid award__item-img"
+                    />
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./assets/img/Adobe_Audition_CC_icon_(2020).svg.png"
+                      alt=""
+                      class="img-fluid award__item-img"
+                    />
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./assets/img/Adobe_Photoshop_CC_icon.svg.png"
+                      alt=""
+                      class="img-fluid award__item-img"
+                    />
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./assets/img/Adobe_Photoshop_Lightroom_CC_logo.svg.png"
+                      alt=""
+                      class="img-fluid award__item-img"
+                    />
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./assets/img/Adobe_Premiere_Pro_CC_icon.svg.png"
+                      alt=""
+                      class="img-fluid award__item-img"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./assets/img/DaVinci_Resolve_17_logo.svg.png"
+                      alt=""
+                      class="img-fluid award__item-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End: award -->
+
+      <footer class="footer py-5" id="contact">
+        <div class="container footer__content text-center">
+          <div class="footer__top text-light">
+            <a href="https://www.facebook.com/profile.php?id=100088837099833" class="footer__top-link">
+              <i class="fab fa-facebook-f footer__top-icon"></i>
+            </a>
+
+            <a href="https://www.youtube.com/@ninhphanhieuuu9774" class="footer__top-link">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a href="https://www.instagram.com/_hieuninh/" class="footer__top-link">
+              <i class="fab fa-instagram footer__top-icon"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@hieuthu15112003" class="footer__top-link">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+
+          <div class="footer__bottom">
+            <p class="footer__bottom-copyright">
+              © Portfolio. All rights reserved | Designed by
+              <a href="#" class="footer__bottom-link">Loi</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // $(".carousel").carousel({
+      //   interval: 2000,
+      // });
+    </script>
+
+    <!-- Popup video -->
+    <script src="./assets/libs/Youtube-Vimeo-Modal-Plugin-jQuery/js/jquery-modal-video.min.js"></script>
+    <script src="./assets/libs/Youtube-Vimeo-Modal-Plugin-jQuery/js/modal-video.min.js"></script>
+    <script>
+      $(".js-video-button").modalVideo({});
+    </script>
+
+    <!-- Gallery Image -->
+    <script src="./assets/libs/mk-lightbox-master/mklb/js/mklb.js"></script>
+  </body>
+</html>
