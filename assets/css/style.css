@@ -375,7 +375,7 @@ li.carousel__list-item.active {
 .award__bg.award__bg--memphis4 {
   position: absolute;
   background: url(../img/memphis_4.png) bottom left no-repeat;
-  background-size: 120%;
+  background-size: cover;
   height: 100%;
   left: 0;
   right: 0;
