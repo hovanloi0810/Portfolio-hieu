@@ -47,6 +47,10 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <!-- Owlcarousel -->
+    <link rel="stylesheet" href="assets/libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
   </head>
 
   <body>
@@ -816,9 +820,9 @@
         </div>
       </section>
       <!-- End: Project -->
-
+      
       <!-- Begin: service -->
-      <section class="services" id="services">
+      <section class="services services--service1" id="services">
         <div class="services__overlay"></div>
         <div class="title container text-center mx-auto text-light services__heading">
           <h3 class="title__heading text-light">I'm Available For Hire</h3>
@@ -862,15 +866,91 @@
       </section>
       <!-- Begin: service -->
 
+      <!-- Begin: service2 -->
+      <section class="services services--service2" id="services">
+        <div class="award__bg award__bg--service2"></div>
+        <!-- <div class="services__overlay"></div> -->
+        <div class="title container text-center mx-auto services__heading">
+          <h3 class="title__heading">The brands I have collaborated with</h3>
+          <p class="my-3 title__text">
+            I aspire to immerse myself in the photography environment to become a professional film editor, thereby bringing more value to the company.
+          </p>
+        </div>
+        <div class="award__bg award__bg--memphis4"></div>
+        <div class="container">
+          <div class="owl-carousel owl-theme row mt-5 pt-3">
+
+            <!-- <div class="item col-12 col-md-4 mb-5 mb-md-0"> -->
+            <!--   <div class="services__item-2"> -->
+            <!--     <i class="fa fa-paint-brush services__item-icon"></i> -->
+            <!--     <h3 class="services__item-heading color-unset">Design</h3> -->
+            <!--     <p class="services__item-text color-unset"> -->
+            <!--       I possess profound knowledge and expertise in the field of design, allowing me to create visually appealing and effective designs. With years of experience and a keen eye for detail, I can deliver creative. -->
+            <!--     </p> -->
+            <!--   </div> -->
+            <!-- </div> -->
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/bb-thanh-mai_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/hifriendz_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/logo-hpcar_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/mp_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/next-academy_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/ranus_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/tbt-fitness_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="services__item-2">
+                <img src="assets/img/logo/tra_-sua-nong_optimized.png" alt="" class="services services_item-2__img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Begin: service 2 -->
+
       <!--Begin: award -->
-      <section class="award">
-        <div class="award__bg"></div>
+      <section class="award award--bg">
+        <!-- <div class="award__bg"></div> -->
+        <div class="award_overlay"></div>
         <div class="container-lg award__content">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-5">
               <div class="award__item">
-                <h2 class="award__item-heading">These are my skills</h2>
-                <p class="award__item-desc my-3">
+                <h2 class="award__item-heading text-light">These are my skills</h2>
+                <p class="award__item-desc my-3 text-light">
                   Allow me to elaborate on the extensive range of skills that I have cultivated and mastered :
                 </p>
               </div>
@@ -878,7 +958,7 @@
 
             <div class="col-12 col-md-6 col-lg-7">
               <div class="award__item-right">
-                <p class="award__item-text">
+                <p class="award__item-text text-light">
                   These skills that I possess include a proficiency in technical software, expertise in designing visually appealing graphics and websites, a keen eye for photography, mastery in video production and editing, effective communication and collaboration abilities, and a dedication to continuous learning and adaptation.
                 </p>
                 <div class="row award__item-imgs">
@@ -999,5 +1079,28 @@
 
     <!-- Gallery Image -->
     <script src="./assets/libs/mk-lightbox-master/mklb/js/mklb.js"></script>
+
+    <!-- Owlcarousel js -->
+    <script src="assets/libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          loop:true,
+          margin:10,
+          nav:false,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:2
+              },
+              1000:{
+                  items:4
+              }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
